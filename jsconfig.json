@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs"
+	},
+	"files": [
+		"login.es6"
+	]
+}

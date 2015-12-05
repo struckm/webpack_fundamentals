@@ -1,0 +1,13 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+jspm_packages
+tmp
+.DS_Store
+
+## Directory-based project format:
+.idea/
+
+app/app.bundle.js
+app/app.bundle.js.map

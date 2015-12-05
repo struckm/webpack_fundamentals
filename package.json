@@ -1,0 +1,32 @@
+{
+  "name": "webpack_fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline"
+  },
+  "author": "Mark Struck",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/struckm/webpack_fundamentals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/struckm/webpack_fundamentals/issues"
+  },
+  "homepage": "https://github.com/struckm/webpack_fundamentals#readme",
+  "dependencies": {
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^0.5.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
