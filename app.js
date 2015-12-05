@@ -1,5 +1,5 @@
 require('./login');
 
-document.writeln('Hello World!');
+document.write('Hello World!');
 
 console.log('App loaded.');
