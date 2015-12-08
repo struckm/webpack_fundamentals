@@ -1,7 +1,15 @@
+var path = require('path');
+
 module.exports = {
+	context: path.resolve('js'),
 	entry: ['./utils', './app'], // this is a key concept here. Utils.js is available to all code in the application. It's not required into any file.
 	output: {
+		path: path.resolve('build/js'),
+		publicPath: '/dist/',
 		filename: 'bundle.js'
+	},
+	devServer: {
+		contentBase: 'public'
 	},
 	watch: true,
 	module: {
@@ -14,7 +22,7 @@ module.exports = {
 		],
 		loaders: [
 			{
-				test: /\.es6$/,
+				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader'
 			}
@@ -22,6 +30,6 @@ module.exports = {
 	},
 
 	resolve: {
-		extensions: ['', '.js', '.es6']
+		extensions: ['', '.js']
 	}
 }

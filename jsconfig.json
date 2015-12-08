@@ -4,6 +4,7 @@
 		"module": "commonjs"
 	},
 	"files": [
-		"login.es6"
+		"js/login.js",
+		"js/app.js"
 	]
 }
